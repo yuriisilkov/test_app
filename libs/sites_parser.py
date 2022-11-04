@@ -102,5 +102,7 @@ def find_positions(html):
                         jobs.append(entry)
     print(jobs)
 
+    
+
 
 parser(all_sites_list)
