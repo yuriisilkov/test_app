@@ -86,21 +86,21 @@ def parser(sites):
             continue
 
 
-# def find_positions(html):
-#     page_content = bs(html.text, 'html.parser')
-#
-#     jobs = []
-#     for vacancy in set(hire_list):
-#         if vacancy in page_content.text:
-#             entries = page_content.find_all(text=re.compile(vacancy, re.IGNORECASE))
-#             for entry in entries:
-#                 entry = entry.replace("\n", "").replace("\t", "").replace("Requirements:", ""). \
-#                     replace("vacancies", "").replace(":", "").strip()
-#                 if entry not in jobs and len(jobs) < 50:
-#                     if "\n" not in entry and "<" not in entry and "?" not in entry \
-#                             and ". " not in entry and len(entry.split(" ")) < 6 and len(entry) < 50:
-#                         jobs.append(entry)
-#     print(jobs)
+def find_positions(html):
+    page_content = bs(html.text, 'html.parser')
+
+    jobs = []
+    for vacancy in set(hire_list):
+        if vacancy in page_content.text:
+            entries = page_content.find_all(text=re.compile(vacancy, re.IGNORECASE))
+            for entry in entries:
+                entry = entry.replace("\n", "").replace("\t", "").replace("Requirements:", ""). \
+                    replace("vacancies", "").replace(":", "").strip()
+                if entry not in jobs and len(jobs) < 50:
+                    if "\n" not in entry and "<" not in entry and "?" not in entry \
+                            and ". " not in entry and len(entry.split(" ")) < 6 and len(entry) < 50:
+                        jobs.append(entry)
+    print(jobs)
 
 
 parser(all_sites_list)
