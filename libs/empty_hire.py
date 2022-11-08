@@ -9,6 +9,7 @@ NOT_IT_JOBS_OFFERS_ARE_PRESENT = "not it related job vacancies are present on th
 
 
 
+
 empy_hire = {
   "01electronics.net": NO_JOB_OFFERS_CV_ONLY,
   "06vauxhall.co.uk": NOT_WORKING_SITE,
