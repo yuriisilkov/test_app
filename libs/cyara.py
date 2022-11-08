@@ -170,6 +170,5 @@ def cyara_get_no_agent_skill():
     return str('no_agents')
 
 
-
 def cyara_get_agent_available_skill():
     return str('transfer')
