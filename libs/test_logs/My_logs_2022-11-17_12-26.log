@@ -1,0 +1,42 @@
+[2022-11-17 12:26:15,116]INFO: Invoke browser Chrome
+[2022-11-17 12:26:17,180]INFO: Browser successfully opened
+[2022-11-17 12:26:17,180]INFO: Trying to get URL: https://www.saucedemo.com/
+[2022-11-17 12:26:18,191]INFO: PASSED: Function name: 'Open browser'
+[2022-11-17 12:26:18,192]INFO: --------------------------------------------------------------------------------------------
+[2022-11-17 12:26:18,192]INFO: START TEST: test_01_verify_that_we_are_on_login_page
+[2022-11-17 12:26:18,231]INFO: PASSED: Function name: 'Verify login page is present'
+[2022-11-17 12:26:18,233]INFO: TEST PASSED: test_01_verify_that_we_are_on_login_page
+[2022-11-17 12:26:18,234]INFO: --------------------------------------------------------------------------------------------
+[2022-11-17 12:26:18,234]INFO: START TEST: test_02_verify_login_with_empty_credentials
+[2022-11-17 12:26:18,234]INFO: Set user credentials...
+[2022-11-17 12:26:18,539]INFO: User failed while login as expected
+[2022-11-17 12:26:18,539]INFO: PASSED: Function name: 'Login'
+[2022-11-17 12:26:18,539]INFO: TEST PASSED: test_02_verify_login_with_empty_credentials
+[2022-11-17 12:26:18,539]INFO: --------------------------------------------------------------------------------------------
+[2022-11-17 12:26:18,539]INFO: START TEST: test_03_verify_login_with_incorrect_credentials
+[2022-11-17 12:26:18,539]INFO: Set user credentials...
+[2022-11-17 12:26:18,762]INFO: User failed while login as expected
+[2022-11-17 12:26:18,762]INFO: PASSED: Function name: 'Login'
+[2022-11-17 12:26:18,763]INFO: TEST PASSED: test_03_verify_login_with_incorrect_credentials
+[2022-11-17 12:26:18,763]INFO: --------------------------------------------------------------------------------------------
+[2022-11-17 12:26:18,763]INFO: START TEST: test_04_verify_login_with_correct_credentials
+[2022-11-17 12:26:18,763]INFO: Set user credentials...
+[2022-11-17 12:26:19,040]INFO: Username/Password was set
+[2022-11-17 12:26:19,040]INFO: Verify that we are on the main page...
+[2022-11-17 12:26:19,069]INFO: PASSED: Function name: 'Logged in verification'
+[2022-11-17 12:26:19,069]INFO: PASSED: Function name: 'Login'
+[2022-11-17 12:26:19,069]INFO: TEST PASSED: test_04_verify_login_with_correct_credentials
+[2022-11-17 12:26:19,070]INFO: --------------------------------------------------------------------------------------------
+[2022-11-17 12:26:19,070]INFO: START TEST: test_05_verify_content
+[2022-11-17 12:26:19,070]INFO: Verify content numbers on the main page...
+[2022-11-17 12:26:19,293]INFO: Expected items content equal with actual
+[2022-11-17 12:26:19,294]INFO: PASSED: Function name: 'Content verification'
+[2022-11-17 12:26:19,294]INFO: TEST PASSED: test_05_verify_content
+[2022-11-17 12:26:19,294]INFO: --------------------------------------------------------------------------------------------
+[2022-11-17 12:26:19,294]INFO: START TEST: test_06_verify_logout
+[2022-11-17 12:26:19,941]INFO: PASSED: Function name: 'Verify login page is present'
+[2022-11-17 12:26:19,942]INFO: User successfully logged out
+[2022-11-17 12:26:19,942]INFO: PASSED: Function name: 'Logout'
+[2022-11-17 12:26:19,942]INFO: TEST PASSED: test_06_verify_logout
+[2022-11-17 12:26:19,942]INFO: Trying to close Chrome
+[2022-11-17 12:26:20,032]INFO: Done closing Chrome

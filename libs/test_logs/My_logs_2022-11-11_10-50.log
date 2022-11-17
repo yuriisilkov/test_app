@@ -1,0 +1,25 @@
+[2022-11-11 10:50:54,128]INFO: --------------------------------------------------------------------------------------------
+[2022-11-11 10:50:54,130]INFO: START TEST: test_01_verify_post_request_on_pet_endpoint
+[2022-11-11 10:50:57,651]INFO: POST https://petstore.swagger.io/v2/pet: returned status code: '200'
+[2022-11-11 10:50:57,652]INFO: Response verification successfully passed
+[2022-11-11 10:50:57,652]INFO: PASSED: Function name: 'Post on pet'
+[2022-11-11 10:50:57,652]INFO: TEST PASSED: test_01_verify_post_request_on_pet_endpoint
+[2022-11-11 10:50:57,653]INFO: --------------------------------------------------------------------------------------------
+[2022-11-11 10:50:57,653]INFO: START TEST: test_02_verify_get_request_on_pet_endpoint_by_id
+[2022-11-11 10:50:58,328]INFO: GET https://petstore.swagger.io/v2/pet/9223372036854286025: returned status code: '200'
+[2022-11-11 10:50:58,329]INFO: Response verification successfully passed
+[2022-11-11 10:50:58,329]INFO: PASSED: Function name: 'Get on pet by id'
+[2022-11-11 10:50:58,329]INFO: TEST PASSED: test_02_verify_get_request_on_pet_endpoint_by_id
+[2022-11-11 10:50:58,330]INFO: --------------------------------------------------------------------------------------------
+[2022-11-11 10:50:58,331]INFO: START TEST: test_03_verify_put_request_on_pet_endpoint
+[2022-11-11 10:50:58,989]INFO: PUT https://petstore.swagger.io/v2/pet: returned status code: '200'
+[2022-11-11 10:50:58,990]INFO: Response verification successfully passed
+[2022-11-11 10:50:58,990]INFO: PASSED: Function name: 'Put on pet'
+[2022-11-11 10:50:58,990]INFO: TEST PASSED: test_03_verify_put_request_on_pet_endpoint
+[2022-11-11 10:50:58,992]INFO: --------------------------------------------------------------------------------------------
+[2022-11-11 10:50:58,992]INFO: START TEST: test_04_verify_delete_request_on_pet_endpoint
+[2022-11-11 10:50:59,677]INFO: DELETE https://petstore.swagger.io/v2/pet/9223372036854286025: returned status code: '200'
+[2022-11-11 10:50:59,677]INFO: Verify object after deletion..
+[2022-11-11 10:51:00,351]INFO: GET https://petstore.swagger.io/v2/pet/9223372036854286025: returned status code: '404' as expected
+[2022-11-11 10:51:00,351]INFO: PASSED: Function name: 'Delete pet'
+[2022-11-11 10:51:00,351]INFO: TEST PASSED: test_04_verify_delete_request_on_pet_endpoint
