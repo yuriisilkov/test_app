@@ -1,0 +1,19 @@
+name: headphones
+quantity: 10
+unitprice: 100
+
+name: keyboard
+quantity: 17
+unitprice: 60
+
+name: mouse
+quantity: 18
+unitprice: 45
+
+name: monitor
+quantity: 15
+unitprice: 120
+
+name: adapter
+quantity: 50
+unitprice: 35
